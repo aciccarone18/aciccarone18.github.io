@@ -74,7 +74,7 @@
       <div class="project-card project-featured" style="margin-bottom: 32px;">
         <div class="project-label">Featured</div>
         <h3>Claude Code Automation Suite</h3>
-        <p class="project-meta">Production System &middot; 9 Agents &middot; 2025 &ndash; 2026</p>
+        <p class="project-meta">Production System &middot; 10 Agents &middot; 2025 &ndash; 2026</p>
         <p>A growing suite of autonomous AI agents built with Claude Code that transforms daily technical support workflows. Every tool follows a consistent design philosophy: gather data automatically from existing systems, process it with AI, and deliver actionable output. All agents comply with company AI usage policies, with sensitive data filtered at the export layer.</p>
         <p class="project-impact">Eliminated hours of manual work per week. Adopted by peers across the team. Packaged into distributable toolkits so non-technical users can deploy their own agents.</p>
         <div class="project-tags">
@@ -105,6 +105,17 @@
 
         <div class="project-card">
           <div class="project-number">02</div>
+          <h3>Event Notification Builder</h3>
+          <p>Web-based tool for building clinical event notification configurations. Dual-mode interface: a guided 5-step wizard encoding 60+ triggers, 8 notification types, and pre-built rule patterns, plus an AI conversational mode where analysts describe what they want in plain English and receive a complete, validated build spec. Single-file HTML app deployable to any internal hosting platform.</p>
+          <div class="project-tags">
+            <span>HTML/JS (No Framework)</span>
+            <span>Claude Code CLI</span>
+            <span>Python Proxy + SSE</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">03</div>
           <h3>End-of-Day / Morning Summary Agent</h3>
           <p>Generates daily work summaries by pulling data from Outlook, calendar, project tracking, time tracking, OneDrive, and git repos. Three modes: EOD recap, morning briefing with prioritized action items, and catch-up for missed days. Identifies unreplied emails and queues next-morning action items via deferred delivery.</p>
           <div class="project-tags">
@@ -114,7 +125,7 @@
         </div>
 
         <div class="project-card">
-          <div class="project-number">03</div>
+          <div class="project-number">04</div>
           <h3>Analytics Query Agent &amp; GUI App</h3>
           <p>Two interfaces for querying customer feature adoption data: a Claude Code agent that translates natural language questions into structured API calls, and a standalone WPF desktop app anyone on the team can use without Claude Code. Supports five query modes with auto-export scheduling for daily snapshots.</p>
           <div class="project-tags">
@@ -125,7 +136,7 @@
         </div>
 
         <div class="project-card">
-          <div class="project-number">04</div>
+          <div class="project-number">05</div>
           <h3>Customer Briefing Agent</h3>
           <p>Generates comprehensive pre-call briefings by pulling data in parallel from Outlook, an internal knowledge base, the project tracker, and OneDrive. Produces a structured document with executive bullets, email threads requiring response, open issues, in-flight development, and talking points. Complete briefing in under a minute.</p>
           <div class="project-tags">
@@ -135,7 +146,7 @@
         </div>
 
         <div class="project-card">
-          <div class="project-number">05</div>
+          <div class="project-number">06</div>
           <h3>Permission Popup Hook</h3>
           <p>Custom Claude Code hook that intercepts permission requests and shows a Windows GUI popup with tool name, command, file path, and description. Built in both C# (.NET Windows Forms) and PowerShell for compatibility. Includes a kill switch for full-auto mode when running trusted agents.</p>
           <div class="project-tags">
@@ -145,7 +156,7 @@
         </div>
 
         <div class="project-card">
-          <div class="project-number">06</div>
+          <div class="project-number">07</div>
           <h3>Distributable FAQ Agent Kit</h3>
           <p>Generalized version of the Domain FAQ Agent, packaged for distribution. An interactive setup wizard handles all configuration: topic, keywords, recipients, schedule, wiki page, and output targets. Generates a customized Claude Code agent definition. Non-technical users deploy their own FAQ agent in under 5 minutes.</p>
           <div class="project-tags">
@@ -156,7 +167,7 @@
         </div>
 
         <div class="project-card">
-          <div class="project-number">07</div>
+          <div class="project-number">08</div>
           <h3>TaskMaster Desktop App</h3>
           <p>Full-featured task management app built with Python and PyQt5. 14 global hotkeys, system tray integration, dark theme, inline syntax, tag filtering, priority sorting, and streak tracking. MVC architecture with QAbstractTableModel for performance. 5,500+ lines, 100% type hints, packaged as a standalone .exe.</p>
           <div class="project-tags">
@@ -167,7 +178,7 @@
         </div>
 
         <div class="project-card">
-          <div class="project-number">08</div>
+          <div class="project-number">09</div>
           <h3>Outlook COM Monitor Pattern</h3>
           <p>Documented architecture pattern for building persistent Outlook email monitors on Windows without crashing Outlook. Covers event-driven COM automation, message queue pumping, safe object lifecycle management, and interactive desktop requirements. Foundation for all Outlook automation in the suite.</p>
           <div class="project-tags">
@@ -177,7 +188,7 @@
         </div>
 
         <div class="project-card">
-          <div class="project-number">09</div>
+          <div class="project-number">10</div>
           <h3>Infrastructure &amp; Supporting Scripts</h3>
           <p>12+ supporting scripts handling cross-cutting concerns: email metadata export, calendar export, time tracking extraction, wiki publishing, scheduled task management, and a context window usage alert hook. Includes workarounds for endpoint protection restrictions on PowerShell execution paths.</p>
           <div class="project-tags">
@@ -193,23 +204,13 @@
       <div class="projects-grid">
 
         <div class="project-card">
-          <h3>Resume Tailoring System</h3>
-          <p class="project-meta">Personal Project &middot; 2026</p>
-          <p>Dynamic PDF resume generator built with React and @react-pdf/renderer. Creates company-specific resumes from YAML data sources with Zod schema validation, multi-version support, and automated PDF generation.</p>
+          <h3>Personal Developer Tooling</h3>
+          <p class="project-meta">Personal Projects &middot; 2026</p>
+          <p>A collection of personal productivity tools including a dynamic PDF generator built with React and @react-pdf/renderer using YAML data sources and Zod schema validation, and a scheduled data pipeline running on GitHub Actions with Gmail API integration for automated reporting.</p>
           <div class="project-tags">
             <span>React</span>
             <span>TypeScript</span>
             <span>Bun</span>
-            <span>Zod</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <h3>AI Job Scanner</h3>
-          <p class="project-meta">Personal Project &middot; 2026</p>
-          <p>Automated job search pipeline running on GitHub Actions every 6 hours. Scrapes listings for AI-focused roles, scores matches against target criteria, and delivers curated results via Gmail drafts with structured HTML formatting.</p>
-          <div class="project-tags">
-            <span>Python</span>
             <span>GitHub Actions</span>
             <span>Gmail API</span>
           </div>
